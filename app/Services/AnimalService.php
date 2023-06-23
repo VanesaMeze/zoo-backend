@@ -27,7 +27,7 @@ class AnimalService {
     $animal->habitat = $request->habitat;
     $animal->rare = $request->rare;
     $animal->count_in_zoo = $request->count_in_zoo;
-    $animal->favorite_food = $request->favorite_food;
+    $animal->favourite_food = $request->favourite_food;
     $animal->save();
 
     return $animal;
@@ -46,7 +46,7 @@ class AnimalService {
     $animal->habitat = $request->habitat;
     $animal->rare = $request->rare;
     $animal->count_in_zoo = $request->count_in_zoo;
-    $animal->favorite_food = $request->favorite_food;
+    $animal->favourite_food = $request->favourite_food;
     $animal->save();
 
     return $animal;
