@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class AnimalService {
   
   public function getAnimals() {
-    return Animal::all();
+    $animals = Animal::paginate(10);
+    return $animals;
   }
 
   public function getAnimal($id) {
